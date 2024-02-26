@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969-pr-trigger-input-set
+  identifier: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969-push-trigger-input-set
+  identifier: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gabrielmasiasordinola_Simple_Node_App_1708953956969
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
